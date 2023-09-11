@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="formstyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div>
+                    <h1 class="header">Friends Registration Form</h1>
+                </div>
+            <div class="input-box">
+                <label for="fname" class="label">First name:</label>
+                <input type="text" name="fname" id="fname"  required>
+            </div>
+              <div class="input-box">
+                <label for="fname" class="label">Last name:</label>
+                <input type="text" name="lname" id="lname"required>
+             </div>
+                 <div class="input-box">
+                  <label for="fname" class="label">Middle name:</label>
+                  <input type="text" name="mname" id="mname"required>
+                 </div>
+                <div class="input-box">
+                     <label for="bdate" class="label">Birthdate:</label>
+                     <input type="date" id="birthdate" class="bdate" name="bdate">
+                </div>
+            <div class="input-box">
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" class="Eadd" name="email" required> 
+            </div>
+            <div class="input-box">
+                <label for="address" class="label">Address:</label>
+                <input type="text" id="Address" name="address">
+            </div>
+            <div class="input-box">
+                <label for="phone" class="label">Phone Number:</label>
+                <input type="tel" id="phone" class="row" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+            </div>
+             <div class="input-box">
+                <label for="zipcode" class="label">Zip code:</label>
+                <input type="number" id="zip" class="zipcode" name="zipcode" required>
+             </div>
+                <div class="radio-container">
+                    <p class="label-container gender">Gender:</p>
+                </div>
+                <div class="radio-container">
+                    <label class="radio">
+                        <input type="radio" value="male" name="gender">
+                        <p class="gender-label">male</p>
+                        <span></span>
+                    </label>
+                </div>
+                <div class="radio-container">
+                    <label class="radio">
+                        <input type="radio" value="female" name="gender">
+                            <p class="gender-label">female</p>
+                        <span></span>
+                    </label>
+                </div>
+                 <div class="radio-container">
+                    <label class="radio">
+                        <input type="radio" value="PrefernotTo" name="gender">
+                        <p class="gender-label">Prefer not to Answer</p>
+                        <span></span>
+                    </label>
+                </div>
+            <div class="radio-container">
+                <p class="label-container RS">Relationship Status:</p>
+            </div>
+            <div class="radio-container">
+                <label class="radio">
+                    <input type="radio" value="female" name="rsStatus">
+                        <p class="gender-label">Single</p>
+                    <span></span>
+                </label>
+            </div>
+            <div class="radio-container">
+                <label class="radio">
+                    <input type="radio" value="married" name="rsStatus">
+                        <p class="gender-label">Married sheyt</p>
+                    <span></span>
+                </label>
+            </div>
+                <div class="input-box">
+                    <input type="submit" id="submit">
+                 </div>
+               </div>
+          </form> 
+    </body>
+</html>
